@@ -87,10 +87,12 @@ endif()
 # For now, we'll use your original files, but adapt to the new structure as you implement it
 set(SOURCES 
     RushHour.cpp
-)
+ "src/piece.cpp")
 
 set(HEADERS
     RushHour.h
+    "include/env.h"
+    "include/piece.h"
 )
 
 # Add executable
